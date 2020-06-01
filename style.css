@@ -155,7 +155,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 .logo{
     color:#179E66;
 }
-.footer-h1{
+.footer a{
     color:white;
 }
 .footer-company{
@@ -1845,12 +1845,12 @@ p.has-large-font-size {
 .footer-about .text {
 	margin-bottom: 35px;
 }
-.footer-about .button .bizwheel-btn {
+.footer-about .button .Walstack-btn {
     background: #179E66;
     margin-top: 20px;
     color: #fff;
 }
-.footer-about .button .bizwheel-btn:hover{
+.footer-about .button .Walstack-btn:hover{
 	background:#fff;
 	color:#179E66
 }
@@ -2399,6 +2399,7 @@ p.has-large-font-size {
     -moz-transition: all 0.4s ease;
     border-top: 3px solid transparent;
     transition: all 0.4s ease;
+    height: 450px;
 }
 .single-feature:hover,
 .single-feature.active{
@@ -2462,7 +2463,7 @@ p.has-large-font-size {
 }
 .single-feature p{
 	font-size: 14px;
-}.bizwheel-btn.theme-2 {
+}.Walstack-btn.theme-2 {
     background: #f3a712;
     color: #fff;
     padding: 15px 32px;
@@ -2470,7 +2471,7 @@ p.has-large-font-size {
 .single-feature .button{
 	margin-top: 15px;
 }
-.single-feature .button .bizwheel-btn {
+.single-feature .button .Walstack-btn {
     background: transparent;
     color: #666;
     padding: 0;
@@ -2479,7 +2480,7 @@ p.has-large-font-size {
     line-height: initial;
     border: none;
 }
-.single-feature .button .bizwheel-btn i {
+.single-feature .button .Walstack-btn i {
     margin-right: 10px;
     background: #2E2751;
     color: #fff;
@@ -2493,8 +2494,8 @@ p.has-large-font-size {
     -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.single-feature.active .bizwheel-btn i,
-.single-feature:hover .bizwheel-btn  i{
+.single-feature.active .Walstack-btn i,
+.single-feature:hover .Walstack-btn  i{
 	color:#fff;
 	background:#179e66;
 }

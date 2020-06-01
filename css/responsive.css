@@ -605,9 +605,7 @@ p{
 .hero-slider, .hero-slider .single-slider {
 	height: 450px !important;
 }
-.hero-slider .single-slider {
-	background: #fff !important;
-}
+
 .hero-slider .hero-text .p-text {
 	max-width: 100%;
 }
@@ -713,6 +711,7 @@ p{
 .features-main .single-list-feature h4 {
 	font-size: 15px;
 	margin-bottom: 5px;
+	text-align: center;
 }
 .features-main .single-list-feature i, .features-main .title p {
 	display: block;
@@ -725,6 +724,7 @@ p{
 .features-main .single-list-feature p{
 	line-height:20px;
 	font-size:13px;
+	text-align: center;
 }
 .single-service p {
   font-size: 14px;
@@ -875,5 +875,22 @@ p{
 .success .mail h2 {
 	font-size: 25px;
 	line-height: 30px;
+}
+.footer-company {
+     margin-left: 0px;
+}
+.footer .f-link ul {
+    margin-left: 0px;
+}
+.Walstack-btn {
+    
+    padding: 13px 50px;
+    margin-bottom: 5px;
+   
+}
+.features-main .single-list-feature i {
+    
+    left: 37%;
+    
 }
 }
