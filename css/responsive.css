@@ -345,7 +345,7 @@ p{
     z-index: 5000;
 }
 .middle-header {
-    padding: 20px 0 25px;
+    padding: 13px 0 15px;
 }
 .header.style2 .middle-header {
     padding: 0;
@@ -378,7 +378,8 @@ p{
 }	
 .mobile-nav {
 	position: relative;
-	margin-top: -21px;
+	bottom: 12px;
+    
 }	
 .menu-area{
 	display:none;
@@ -420,13 +421,14 @@ p{
 	clear: both;
 	color: #fff;
 	margin: 0;
-	background: transparent;
-	padding-top: 15px;
+	background: white;
+    padding-top: 15px;
+    padding-left: 11px;
 }
 .slicknav_nav li a{
 	margin: 0;
-	color: #333;
-	background: transparent;
+	color:black;
+	background: white;
 	overflow: hidden;
 }
 .slicknav_nav li a i{
@@ -456,7 +458,7 @@ p{
 .slicknav_nav .slicknav_row, .slicknav_nav a {
 	padding: 0;
 	margin: 0;
-	padding: 6px 0;
+	padding: 9px 0;
 	font-weight: 500;
 }
 .slicknav_nav li:last-child a{
@@ -617,7 +619,7 @@ p{
 	font-size: 13px;
 }
 .hero-slider .hero-text .button {
-	margin-top: 25px;
+	margin-top: 80px;
 }
 .testimonial-inner .single-slider{
 	box-shadow:none;
@@ -892,5 +894,23 @@ p{
     
     left: 37%;
     
+}
+.hero-slider .owl-carousel .owl-nav div {
+    position: absolute;
+    margin: 0;
+    padding: inherit;
+    font-size: 35px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.3s ease;
+    border-radius: 0px;
+    top: 50%;
+    background: transparent;
+    margin-top: -8px;
+    margin-left: -12px;
+    font-weight: bold;
+}
+.hero-slider .owl-carousel .owl-nav div:hover{
+	background: transparent;
 }
 }
